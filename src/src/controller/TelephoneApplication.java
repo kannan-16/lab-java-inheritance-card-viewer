@@ -10,12 +10,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import src.model.App;
-import src.model.TBasic;
-import src.model.TCordless;
-import src.model.THandset;
-import src.model.TSmartphone;
-import src.model.Telephone;
+//Uncomment the following lines
+//import src.model.App;
+//import src.model.TBasic; 
+//import src.model.TCordless;
+//import src.model.THandset;
+//import src.model.TSmartphone;
+//import src.model.Telephone;
 
 /**
  * Servlet implementation class VehicleApplication
@@ -45,6 +46,8 @@ public class TelephoneApplication extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		//Uncomment the following lines
+		/*
 		String value = request.getParameter("phone");
 
 		Telephone telephone = null;
@@ -97,6 +100,7 @@ public class TelephoneApplication extends HttpServlet {
 		request.setAttribute("message" + msgID, msg);
 		RequestDispatcher rd = this.getServletContext().getRequestDispatcher("/WEB-INF/views/index.jsp");
 		rd.forward(request, response);
+		*/
 	}
 
 }

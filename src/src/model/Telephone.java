@@ -1,13 +1,11 @@
 package src.model;
 
-public class Telephone {
-	String myNumber;
+//Create a class Telephone 
+
+	//Create a string variable named myNumber
 	
-	public Telephone(String myNumber) {
-		this.myNumber = myNumber;
-	}
+	//Create a constructor with a parameter myNumber
 	
-	public void makeCall(){}
+		//Assign the corresponding values
 	
-	public void recieveCall() {}
-}
+	//Print the features of the phone

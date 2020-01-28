@@ -1,21 +1,13 @@
 package src.model;
 
-public class TSmartphone extends THandset {
+//Create a class named TSmartphone which inherits THandset
 
-	App[] apps;
+	//Create an array named apps of the type App
 
-	public TSmartphone(String myNumber, int noOfKeys, boolean isWired, boolean hasDisplay, App[] apps) {
-		super(myNumber, noOfKeys, isWired, hasDisplay);
-		this.apps = apps;
-	}
-	
-	public void makeCall(){}
-	
-	public void recieveCall() {}
-	
-	public void sendSMS(){}
-	
-	public void recieveSMS(){}
-	
-	public void launchApp(int appID) {}
-}
+	//Create a constructor with 5 parameters 
+	//In the order myNumber, noOfKeys, isWired, hasDisplay, apps
+		
+		//Call the super class variables
+		//Assign the appropriate values
+
+	//Print the features of TSmartPhone

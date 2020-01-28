@@ -1,17 +1,8 @@
 package src.model;
 
-public class THandset extends TCordless {
+//Create a public class named THandset which inherits TCordless
 
-	public void makeCall(){}
-	
-	public void recieveCall() {}
-	
-	public void sendSMS(){}
-	
-	public void recieveSMS(){}
+	//Create a constructor with four parameters (all base class parameter)
+	//In the order myNumber, noOfKeys, isWired, hasDisplay
 
-	public THandset(String myNumber, int noOfKeys, boolean isWired, boolean hasDisplay) {
-		super(myNumber, noOfKeys, isWired, hasDisplay);
-	}
-
-}
+		//Call the base class variables

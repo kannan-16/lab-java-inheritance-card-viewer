@@ -1,15 +1,14 @@
 package src.model;
 
-public class TCordless extends TBasic {
-	boolean isWired = false;
-	boolean hasDisplay = true;
-	public TCordless(String myNumber, int noOfKeys, boolean isWired, boolean hasDisplay) {
-		super(myNumber, noOfKeys);
-		this.isWired = isWired;
-		this.hasDisplay = hasDisplay;
-	}
+//Create a public class named TCordless which extends TBasic
 	
-	public void makeCall(){}
+	//Create a boolean variables isWired (assign the value as false) and hasDisplay (assign the value as true) 
 	
-	public void recieveCall() {}
-}
+	//Create a constructor with four parameters
+	//In the order myNumber, noOfKeys, isWired, hasDisplay
+	
+		//Call the super class variables (myNumber and noOfKeys)
+		
+		//Assign the corresponding values	
+	
+	//Print the features of the phone

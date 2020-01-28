@@ -1,14 +1,14 @@
 package src.model;
 
-public class TBasic extends Telephone {
-	int noOfKeys = 10;
+//Create a class named TBasics which inherits Telephone
 
-	public TBasic(String myNumber, int noOfKeys) {
-		super(myNumber);
-		this.noOfKeys = noOfKeys;
-	}
-	
-	public void makeCall(){}
-	
-	public void recieveCall() {}
-}
+	//Create an integer variable named noOfKeys and assign the value as 10
+
+
+	//Create a constructor with two parameters myNumber(from the base class) and noOfKeys
+
+		//Call the super class value - myNumber
+
+		//Assign the value using this keyword
+
+	//Print the features of the phone

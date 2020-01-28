@@ -1,11 +1,12 @@
 package src.model;
 
-public class App {
-	int appID;
-	String appName;
-	public App(int appID, String appName) {
-		super();
-		this.appID = appID;
-		this.appName = appName;
-	}
-}
+//Create a public class named App
+	
+	//Create an integer variable named appID
+	
+	//Create a string variable named appName
+	
+	//Create a constructor with two parameters
+	//In the order appID and appName
+	
+		//Assign the corresponding values
